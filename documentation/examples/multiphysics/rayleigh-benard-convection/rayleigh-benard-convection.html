@@ -3,11 +3,11 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="next" title="Stefan Problem: Melting of a Solid" href="../stefan-problem/stefan-problem.html" /><link rel="prev" title="Heat Transfer" href="../heat-transfer.html" />
+<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="next" title="Stefan Problem: Melting of a Solid" href="../stefan-problem/stefan-problem.html" /><link rel="prev" title="Cooling Fin" href="../cooling-fin/cooling-fin.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
         <title>Rayleigh-Bénard Convection - Lethe documentation</title>
-      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=a746c00c" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=eafc0fe6" />
@@ -160,7 +160,7 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../installation/installation.html">Installation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Installation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../installation/regular_installation.html">Regular Installation on Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../installation/windows_wsl.html">Windows with WSL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../installation/apple_arm.html">Installation on Apple ARM (M1 or M2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../installation/apple_arm.html">Installation on Apple ARM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../installation/docker.html">Docker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../installation/digital_alliance.html">Running Lethe on Digital Research Alliance of Canada Clusters</a></li>
 </ul>
@@ -264,22 +264,27 @@
 </ul>
 </li>
 <li class="toctree-l3 current has-children"><a class="reference internal" href="../heat-transfer.html">Heat Transfer</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Heat Transfer</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../cooling-fin/cooling-fin.html">Cooling Fin</a></li>
 <li class="toctree-l4 current current-page"><a class="current reference internal" href="#">Rayleigh-Bénard Convection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../stefan-problem/stefan-problem.html">Stefan Problem: Melting of a Solid</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../warming-up-a-viscous-fluid/warming-up-a-viscous-fluid.html">Warming up a Viscous Fluid</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../melting-cavity/melting-cavity.html">Melting Cavity</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../laser-heating/laser-heating.html">Laser Heating</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../laser-melt-pool/laser-melt-pool.html">Laser Melt Pool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../static-irradiation/static-irradiation.html">Static Irradiation of a Bare Plate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../concentric-heat-exchanger/concentric-heat-exchanger.html">Concentric Heat Exchanger</a></li>
 </ul>
 </li>
 <li class="toctree-l3 has-children"><a class="reference internal" href="../tracer.html">Tracer</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle navigation of Tracer</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l4"><a class="reference internal" href="../tracer-through-cad-junction/tracer-through-cad-junction.html">Tracer through CAD Junction in Simplex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../tracer-in-static-mixer/tracer-in-static-mixer.html">Tracer in Static Mixer</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../chns.html">CHNS</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" role="switch" type="checkbox"/><label for="toctree-checkbox-13"><div class="visually-hidden">Toggle navigation of CHNS</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../jurins-law/jurins-law.html">Jurin’s Law</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bubble-detachment-shear-flow/bubble-detachment-shear-flow.html">Bubble detachment in shear flow</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../dem/dem.html">Discrete Element Method (DEM)</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" role="switch" type="checkbox"/><label for="toctree-checkbox-13"><div class="visually-hidden">Toggle navigation of Discrete Element Method (DEM)</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../dem/dem.html">Discrete Element Method (DEM)</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" role="switch" type="checkbox"/><label for="toctree-checkbox-14"><div class="visually-hidden">Toggle navigation of Discrete Element Method (DEM)</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/bouncing-particle/bouncing-particle.html">Bouncing Particle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/oblique-wall-impact/oblique-wall-impact.html">Oblique Wall Impact</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/packing-in-circle/packing-in-circle.html">Packing in Circle</a></li>
@@ -288,6 +293,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../../dem/small-scale-rotating-drum-postprocessing/small-scale-rotating-drum-postprocessing.html">Small Scale Rotating Drum Postprocessing</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/rotating-drum/rotating-drum.html">Rotating Drum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/rotation-of-box/rotation-of-box.html">Rotation of Box</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../dem/sandpile-formation/sandpile-formation.html">Sandpile Formation</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/silo/silo.html">Silo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/rectangular-hopper/rectangular-hopper.html">Rectangular Hopper</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../dem/granular-dam-break/granular-dam-break.html">Granular Dam-Break</a></li>
@@ -297,7 +303,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../../dem/granuheap/granuheap.html">Granuheap</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../unresolved-cfd-dem/unresolved-cfd-dem.html">Unresolved CFD-DEM</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" role="switch" type="checkbox"/><label for="toctree-checkbox-14"><div class="visually-hidden">Toggle navigation of Unresolved CFD-DEM</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../unresolved-cfd-dem/unresolved-cfd-dem.html">Unresolved CFD-DEM</a><input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><div class="visually-hidden">Toggle navigation of Unresolved CFD-DEM</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/cylindrical-packed-bed/cylindrical-packed-bed.html">Cylindrical Packed Bed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/gas-solid-fluidized-bed/gas-solid-fluidized-bed.html">Gas-Solid Fluidized Bed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/gas-solid-spouted-bed/gas-solid-spouted-bed.html">Gas-Solid Spouted Bed</a></li>
@@ -307,28 +313,29 @@
 <li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/dense-pneumatic-conveying/dense-pneumatic-conveying.html">Dense Pneumatic Conveying</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/sharp-immersed-boundary.html">Sharp Immersed Boundary Solver</a><input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><div class="visually-hidden">Toggle navigation of Sharp Immersed Boundary Solver</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/resolved-cfd-dem.html">Resolved CFD-DEM</a><input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" role="switch" type="checkbox"/><label for="toctree-checkbox-16"><div class="visually-hidden">Toggle navigation of Resolved CFD-DEM</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/sharp-immersed-boundary.html">Sharp Immersed Boundary Solver</a><input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" role="switch" type="checkbox"/><label for="toctree-checkbox-16"><div class="visually-hidden">Toggle navigation of Sharp Immersed Boundary Solver</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/resolved-cfd-dem.html">Resolved CFD-DEM</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of Resolved CFD-DEM</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/sedimentation-1-particle/sedimentation-1-particle.html">Sedimentation of One Particle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/sedimentation-64-particles/sedimentation-64-particles.html">Sedimentation of 64 Particles</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/incompressible-flow.html">Incompressible Flow</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of Incompressible Flow</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/incompressible-flow.html">Incompressible Flow</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of Incompressible Flow</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/cylinder-with-sharp-interface/cylinder-with-sharp-interface.html">Flow around a Cylinder Using the Sharp Interface Method</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/sphere-carreau-with-sharp-interface/sphere-carreau-with-sharp-interface.html">Non-Newtonian Flow past a Sphere</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/3d-composite-mixer-with-pbt-impeller/3d-composite-mixer-with-pbt-impeller.html">3D Mixer with Pitched-Blade Turbine Impeller Using Composite Sharp-Immersed Boundary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/3d-opencascade-mixer-with-pbt-impeller/3d-opencascade-mixer-with-pbt-impeller.html">3D Mixer with Pitched-Blade Turbine Impeller Using OpenCascade Sharp-Immersed Boundary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/3d-rbf-static-mixer/3d-rbf-static-mixer.html">3D Static Mixer Using RBF Sharp Immersed Boundary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/inclined-3d-composite-mixer-with-pbt-impeller/inclined-3d-composite-mixer-with-pbt-impeller.html">Inclined 3D Mixer with Pitched-Blade Turbine Impeller Using Composite Sharp-Immersed Boundary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/cylindrical-particle-drag-evaluation-with-sharp-interface/cylindrical-particle-drag-evaluation-with-sharp-interface.html">Flow around a Finite Cylindrical Particle Using the Sharp Interface Method</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/geometry-definition.html">Geometry Definition</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of Geometry Definition</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../sharp-immersed-boundary/geometry-definition.html">Geometry Definition</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Geometry Definition</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../sharp-immersed-boundary/simple-plane-model-from-composite/simple-plane-model-from-composite.html">Simple Plane Model From Composite</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../rpt/rpt.html">Radioactive Particle Tracking (RPT)</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Radioactive Particle Tracking (RPT)</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../rpt/rpt.html">Radioactive Particle Tracking (RPT)</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Radioactive Particle Tracking (RPT)</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../rpt/photon-count-calculation-in-a-cylindrical-vessel/photon-count-calculation-in-a-cylindrical-vessel.html">Photon Count Calculation in a Cylindrical Vessel</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../rpt/tuning-parameters-with-nomad/tuning-parameters-with-nomad.html">Tuning Count Calculation Model Parameters with NOMAD</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../rpt/particle-fem-reconstruction/particle-fem-reconstruction.html">Particle FEM Reconstruction</a></li>
@@ -336,9 +343,9 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../../theory/theory.html">Theory</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Theory</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../../theory/multiphysics/multiphysics.html">Multiphysics</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of Multiphysics</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/fluid_dynamics/fluid_dynamics.html">Fluid Dynamics</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Fluid Dynamics</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../theory/theory.html">Theory</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of Theory</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../theory/multiphysics/multiphysics.html">Multiphysics</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Multiphysics</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/fluid_dynamics/fluid_dynamics.html">Fluid Dynamics</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Fluid Dynamics</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/fluid_dynamics/navier-stokes.html">The Incompressible Navier-Stokes Equations</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/fluid_dynamics/fem_formulation.html">Origin of the Finite Element Formulation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/fluid_dynamics/stabilization.html">On the Need for Stabilization</a></li>
@@ -346,17 +353,17 @@
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/fluid_dynamics/rheology.html">Rheology and Non-Newtonian Fluids</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/heat_transfer/heat_transfer.html">Heat Transfer</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Heat Transfer</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/heat_transfer/heat_transfer.html">Heat Transfer</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Heat Transfer</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/heat_transfer/heat_equation.html">Heat Transfer Equations</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/heat_transfer/heat_equation.html#finite-element-formulation">Finite Element Formulation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/heat_transfer/heat_equation.html#stabilization-techniques">Stabilization Techniques</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/passive_tracer/passive_tracer.html">Passive Tracer</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Passive Tracer</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/passive_tracer/passive_tracer.html">Passive Tracer</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Passive Tracer</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/passive_tracer/passive_tracer_equations.html">Passive Tracer Equations</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/electromagnetism/electromagnetism.html">Electromagnetism</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Electromagnetism</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphysics/electromagnetism/electromagnetism.html">Electromagnetism</a><input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of Electromagnetism</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/electromagnetism/time_harmonic.html">Time Harmonic Maxwell’s Equations</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/electromagnetism/time_harmonic_weak_form.html">Finite Element Method for Time-Harmonic Maxwell’s Equations</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphysics/electromagnetism/magnetohydrodynamics.html">Magnetohydrodynamics Equations</a></li>
@@ -364,13 +371,13 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../../theory/multiphase/multiphase.html">Multiphase</a><input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of Multiphase</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphase/cfd/cfd.html">One-Fluid Models</a><input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of One-Fluid Models</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../theory/multiphase/multiphase.html">Multiphase</a><input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of Multiphase</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphase/cfd/cfd.html">One-Fluid Models</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of One-Fluid Models</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphase/cfd/vof.html">The Volume of Fluid (VOF) Method</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphase/cfd/cahn-hilliard.html">Cahn-Hilliard Method</a></li>
 </ul>
 </li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphase/cfd_dem/cfd_dem.html">CFD-DEM</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of CFD-DEM</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../theory/multiphase/cfd_dem/cfd_dem.html">CFD-DEM</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of CFD-DEM</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphase/cfd_dem/dem.html">Discrete Element Method (DEM)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphase/cfd_dem/resolved_cfd-dem.html">Resolved CFD-DEM</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../theory/multiphase/cfd_dem/unresolved_cfd-dem.html">Unresolved CFD-DEM</a></li>
@@ -380,7 +387,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../../tools/tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../tools/tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../tools/updating-test-results.html">Updating Test Results</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../tools/gmsh/gmsh.html">Introduction on How to Use GMSH</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../tools/pointwise/pointwise.html">Introduction on How to Use Pointwise</a></li>
@@ -428,7 +435,7 @@
         <article role="main">
           <section id="rayleigh-benard-convection">
 <h1>Rayleigh-Bénard Convection<a class="headerlink" href="#rayleigh-benard-convection" title="Link to this heading">#</a></h1>
-<p>This example simulates two-dimensional Rayleigh–Benard convection <a class="footnote-reference brackets" href="#venturi2010" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#mpi2022" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> at Rayleigh numbers of <span class="math notranslate nohighlight">\(10^4\)</span> and <span class="math notranslate nohighlight">\(2.5 \times 10^4\)</span> .</p>
+<p>This example simulates a two-dimensional Rayleigh–Bénard convection <a class="footnote-reference brackets" href="#ouertatani" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#venturi2010" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#mpi2022" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a> at Rayleigh numbers of <span class="math notranslate nohighlight">\(10^4\)</span> and <span class="math notranslate nohighlight">\(10^6\)</span> .</p>
 <section id="features">
 <h2>Features<a class="headerlink" href="#features" title="Link to this heading">#</a></h2>
 <ul class="simple">
@@ -441,69 +448,62 @@
 <h2>Files Used in This Example<a class="headerlink" href="#files-used-in-this-example" title="Link to this heading">#</a></h2>
 <p>Both files mentioned below are located in the example’s folder (<code class="docutils literal notranslate"><span class="pre">examples/multiphysics/rayleigh-benard-convection</span></code>).</p>
 <ul class="simple">
-<li><p>Parameter file for <span class="math notranslate nohighlight">\(Ra=10\, 000\)</span>: <code class="docutils literal notranslate"><span class="pre">rayleigh-benard-convection-Ra10k.prm</span></code></p></li>
-<li><p>Parameter file for <span class="math notranslate nohighlight">\(Ra=25\, 000\)</span>: <code class="docutils literal notranslate"><span class="pre">rayleigh-benard-convection-Ra25k.prm</span></code></p></li>
+<li><p>Parameter file for <span class="math notranslate nohighlight">\(Ra=10^4\)</span>: <code class="docutils literal notranslate"><span class="pre">rayleigh-benard-convection-Ra10k.prm</span></code></p></li>
+<li><p>Parameter file for <span class="math notranslate nohighlight">\(Ra=10^6\)</span>: <code class="docutils literal notranslate"><span class="pre">rayleigh-benard-convection-Ra1M.prm</span></code></p></li>
 </ul>
 </section>
 <section id="description-of-the-case">
 <h2>Description of the Case<a class="headerlink" href="#description-of-the-case" title="Link to this heading">#</a></h2>
-<p>In this example, we evaluate the performance of the <code class="docutils literal notranslate"><span class="pre">lethe-fluid</span></code> solver in the simulation of the stability of natural convection within a two-dimensional rectangular domain. The following schematic describes the geometry and dimensions of the simulation in the <span class="math notranslate nohighlight">\((x,y)\)</span> plane:</p>
-<a class="reference internal image-reference" href="../../../_images/geometry2.png"><img alt="Schematic" class="align-center" src="../../../_images/geometry2.png" style="width: 400px;" /></a>
-<dl>
-<dt>The incompressible Navier-Stokes equations with a Boussinesq approximation for the buoyant force are:</dt><dd><div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[\nabla \cdot {\bf{u}} = 0\]</div>
-</div>
+<p>In this example, we evaluate the performance of the <code class="docutils literal notranslate"><span class="pre">lethe-fluid</span></code> solver in the simulation of the stability of natural convection within a two-dimensional square domain. Our results are tested against the benchmark presented by Ouertatani <em>et al.</em> <a class="footnote-reference brackets" href="#ouertatani" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> . The following schematic describes the geometry and dimensions of the simulation:</p>
+<a class="reference internal image-reference" href="../../../_images/geometry1.png"><img alt="Schematic" class="align-center" src="../../../_images/geometry1.png" style="width: 400px;" /></a>
+<p>The incompressible Navier-Stokes equations with a Boussinesq approximation for the buoyant force are:</p>
 <div class="math-wrapper docutils container">
 <div class="math notranslate nohighlight">
-\[\rho \frac{\partial {\bf{u}}}{\partial t} + \rho ({\bf{u}} \cdot \nabla) {\bf{u}} = -\nabla p + \nabla \cdot {\bf{\tau}} - \rho \beta {\bf{g}} (T - T_0)\]</div>
+\[\begin{split}\nabla \cdot {\bf{u}} &amp;= 0 \\
+\rho \frac{\partial {\bf{u}}}{\partial t} + \rho ({\bf{u}} \cdot \nabla) {\bf{u}} &amp;= -\nabla p + \nabla \cdot {\bf{\tau}} - \rho \beta {\bf{g}} (T - T_0)\end{split}\]</div>
 </div>
-</dd>
-</dl>
 <p>where <span class="math notranslate nohighlight">\(\beta\)</span> and <span class="math notranslate nohighlight">\(T_0\)</span> denote thermal expansion coefficient and a reference temperature, respectively.</p>
-<p>A two-dimensional block of fluid is heated from its bottom wall at <span class="math notranslate nohighlight">\(t = 0\)</span> s. The temperature of the bottom wall is equal to <span class="math notranslate nohighlight">\(T_h=50\)</span>, the temperature of the top wall is equal to <span class="math notranslate nohighlight">\(T_c=0\)</span>, and the left and right walls are insulated. By heating the fluid from the bottom wall, the buoyant force (natural convection) creates vortices inside the fluid. The shape and number of these vortices mainly depend on the Rayleigh number [1, 2]:</p>
-<blockquote>
-<div><div class="math-wrapper docutils container">
+<p>A two-dimensional block of fluid is heated from its bottom wall at <span class="math notranslate nohighlight">\(t = 0\)</span> s. The temperature of the bottom wall is equal to <span class="math notranslate nohighlight">\(T_\text{h}=10\)</span>, the temperature of the top wall is equal to <span class="math notranslate nohighlight">\(T_\text{c}=0\)</span>, and the left and right walls are insulated. By heating the fluid from the bottom wall, the buoyant force (natural convection) creates vortices inside the fluid. The shape and count of these vortices depend on the Rayleigh number and the Prandtl dimensionless numbers <a class="footnote-reference brackets" href="#ouertatani" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#venturi2010" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> :</p>
+<div class="math-wrapper docutils container">
 <div class="math notranslate nohighlight">
-\[\text{Ra} = \frac{\rho^2 \beta g (T_h - T_c) H^3 c_p}{k \mu}\]</div>
+\[\begin{split}Ra &amp;= \frac{\rho^2 \beta g (T_\text{h} - T_\text{c}) H^3 c_\text{p}}{k \mu} \\
+Pr &amp;= \frac{\mu c_\text{p}}{k}\end{split}\]</div>
 </div>
-</div></blockquote>
-<p>where <span class="math notranslate nohighlight">\(\rho\)</span> is the fluid density, <span class="math notranslate nohighlight">\(g\)</span> is the magnitude of gravitational acceleration, <span class="math notranslate nohighlight">\(H\)</span> denotes the characteristic length, <span class="math notranslate nohighlight">\(k\)</span> is the thermal conduction coefficient, and <span class="math notranslate nohighlight">\(\mu\)</span> is the dynamic viscosity, and <span class="math notranslate nohighlight">\(c_p\)</span> is the specific thermal capacity.</p>
-<p>In this example, we simulate the Rayleigh-Bénard convection problem at two Rayleigh numbers of 10000 and 25000. According to the literature [1, 2], we should see different numbers (2 and 3 vortices at <span class="math notranslate nohighlight">\(Ra=10^4\)</span> and <span class="math notranslate nohighlight">\(2.5 \times 10^4\)</span>, respectively) of vortices in the fluid at these two Rayleigh numbers. The gravity magnitude is set to -10 for both simulations. Additionally, <span class="math notranslate nohighlight">\(\rho = 100\)</span>, <span class="math notranslate nohighlight">\(\beta = 0.0002\)</span>, <span class="math notranslate nohighlight">\(H = 0.25\)</span>, <span class="math notranslate nohighlight">\(c_p = 100\)</span> and <span class="math notranslate nohighlight">\(\mu = 1\)</span>. Thus, the Rayleigh number is controlled only by the thermal conduction coefficient for this example. In other words, we change the Rayleigh number by changing the thermal conduction coefficient of the fluid.</p>
+<p>where <span class="math notranslate nohighlight">\(\rho\)</span> is the fluid density, <span class="math notranslate nohighlight">\(g\)</span> is the magnitude of gravitational acceleration, <span class="math notranslate nohighlight">\(H\)</span> denotes the characteristic length, <span class="math notranslate nohighlight">\(k\)</span> is the thermal conduction coefficient, <span class="math notranslate nohighlight">\(\mu\)</span> is the dynamic viscosity, and <span class="math notranslate nohighlight">\(c_\text{p}\)</span> is the specific heat capacity.</p>
+<p>In this example, we simulate the Rayleigh-Bénard convection problem at two Rayleigh numbers ( <span class="math notranslate nohighlight">\(Ra=10^4\)</span> and <span class="math notranslate nohighlight">\(Ra=10^6\)</span> ) with a Prandtl number of <span class="math notranslate nohighlight">\(Pr=0.71\)</span> which correspond to air. According to the literature <a class="footnote-reference brackets" href="#ouertatani" id="id7" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> , we should see one big convective cell at steady-state for both <span class="math notranslate nohighlight">\(Ra=10^4\)</span> and <span class="math notranslate nohighlight">\(Ra=10^6\)</span>, but for the latter, there should also be two small vortices in opposite corners rotating in the reverse direction of the big vortex. For simplicity, the gravity magnitude is set to 10 pointing in the opposite direction of the y-axis for both simulations. Additionally, because the two dimensionless numbers above are the only thing that characterize the flow we may choose the remaining parameters as we want. Here we chose to fix <span class="math notranslate nohighlight">\(\rho = 1\)</span>, <span class="math notranslate nohighlight">\(H = 1\)</span>, <span class="math notranslate nohighlight">\(c_\text{p} = 100\)</span> and <span class="math notranslate nohighlight">\(\mu = 0.071\)</span>. Thus, the Rayleigh number is controlled only by the thermal expansion coefficient (<span class="math notranslate nohighlight">\(\beta = 0.71\)</span> or <span class="math notranslate nohighlight">\(\beta = 71\)</span>).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>All four boundary conditions are <code class="docutils literal notranslate"><span class="pre">noslip</span></code>, and an external
-gravity field of <span class="math notranslate nohighlight">\(-10\)</span> is applied in the <span class="math notranslate nohighlight">\(y\)</span> direction.</p>
+<p>All four boundary conditions for the velocity are <code class="docutils literal notranslate"><span class="pre">noslip</span></code>. The sides wall are set to <code class="docutils literal notranslate"><span class="pre">convection-radiation-flux</span></code> with a heat transfer coefficient of 0 to have isolated walls. The top and bottom walls are set to a <code class="docutils literal notranslate"><span class="pre">temperature</span></code> to force a value of 0 and 10, respectively.</p>
 </div>
 </section>
 <section id="parameter-file">
 <h2>Parameter File<a class="headerlink" href="#parameter-file" title="Link to this heading">#</a></h2>
+<p>For simplicity, we present only the parameter file for <span class="math notranslate nohighlight">\(Ra=10^4\)</span>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note that the resolution (256x256) is set to match the one of the article results <a class="footnote-reference brackets" href="#ouertatani" id="id8" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> . If desired, you can choose to reduced to 7 or 6 the <code class="docutils literal notranslate"><span class="pre">initial</span> <span class="pre">refinement</span> <span class="pre">level</span></code> in the parameter files to reduce the simulation time without loosing too much accuracy.</p>
+</div>
 <section id="simulation-control">
 <h3>Simulation Control<a class="headerlink" href="#simulation-control" title="Link to this heading">#</a></h3>
-<p>Time integration is handled by a 1st order backward differentiation scheme
-<cite>(bdf1)</cite>, for a <span class="math notranslate nohighlight">\(10000\)</span> s simulation time with an initial
-time step of <span class="math notranslate nohighlight">\(0.01\)</span> second.</p>
+<p>The time integration is handled by a 1st order backward differentiation scheme
+<cite>(bdf1)</cite>. A simulation time of <span class="math notranslate nohighlight">\(24\)</span> s has been selected to ensure that the system reaches a quasi-steady state. The initial time-step is set to <span class="math notranslate nohighlight">\(0.001\)</span> s, but this will be adapted during the simulation.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This example uses an adaptive time-stepping method, where the
-time-step is modified during the simulation to keep the maximum value of the CFL condition below a given threshold (0.5 here). Using <code class="docutils literal notranslate"><span class="pre">output</span> <span class="pre">control</span> <span class="pre">=</span> <span class="pre">time</span></code>, and <code class="docutils literal notranslate"><span class="pre">output</span> <span class="pre">time</span> <span class="pre">=</span> <span class="pre">25</span></code> the simulation results are written every 25 s.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Note that the heating process is slow, and the velocity magnitudes are small inside the fluid. Hence, we expect large time-steps and a long simulation.</p>
+time-step is modified during the simulation to keep the maximum value of the CFL condition below a given threshold (0.9 here). Using <code class="docutils literal notranslate"><span class="pre">output</span> <span class="pre">control</span> <span class="pre">=</span> <span class="pre">time</span></code>, and <code class="docutils literal notranslate"><span class="pre">output</span> <span class="pre">time</span> <span class="pre">frequency</span> <span class="pre">=</span> <span class="pre">0.5</span></code> the simulation results are written every 0.5 seconds regardless of the time-steps.</p>
 </div>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>subsection simulation control
   set method                       = bdf1
-  set time end                     = 10000
+  set time end                     = 24
   set time step                    = 0.01
   set adapt                        = true
-  set max cfl                      = 0.5
+  set max cfl                      = 0.9
   set stop tolerance               = 1e-5
   set adaptative time step scaling = 1.3
   set number mesh adapt            = 0
   set output name                  = rayleigh-benard_convection
   set output control               = time
-  set output time                  = 25
+  set output time frequency        = 0.5
   set output path                  = ./output/
 end
 </pre></div>
@@ -533,15 +533,14 @@ end
 </section>
 <section id="physical-properties">
 <h3>Physical Properties<a class="headerlink" href="#physical-properties" title="Link to this heading">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">physical</span> <span class="pre">properties</span></code> subsection defines the physical properties of the fluid. Since we simulate the Rayleigh-Bénard convection at two Rayleigh numbers (<span class="math notranslate nohighlight">\(Ra=10^4\)</span> and <span class="math notranslate nohighlight">\(2.5 \times 10^4\)</span>), we use different thermal conductivities to reach mentioned Rayleigh numbers. We change the thermal conductivity of the fluid in the two simulations. Note that any other physical property (that is present in the Rayleigh number equation defined above) can be used instead of thermal conductivity. Both thermal conductivity values (<span class="math notranslate nohighlight">\(k=0.15625\)</span> for <span class="math notranslate nohighlight">\(Ra=10^4\)</span>, and <span class="math notranslate nohighlight">\(k=0.0625\)</span> for <span class="math notranslate nohighlight">\(Ra=2.5 \times 10^4\)</span>) are added to the parameter handler file. However, only one of them should be uncommented for each simulation.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">physical</span> <span class="pre">properties</span></code> subsection defines the physical properties of the fluid.</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>subsection physical properties
   set number of fluids = 1
   subsection fluid 0
-    set density              = 100
-    set kinematic viscosity  = 0.01
-    set thermal expansion    = 0.0002
-    set thermal conductivity = 0.15625 # for Ra = 10000
-    #set thermal conductivity = 0.0625 # for Ra = 25000
+    set density              = 1
+    set kinematic viscosity  = 0.071
+    set thermal expansion    = 0.71
+    set thermal conductivity = 10
     set specific heat        = 100
   end
 end
@@ -555,32 +554,52 @@ end
 <div class="copy-button highlight-text notranslate"><div class="highlight"><pre><span></span>mpirun -np 8 lethe-fluid rayleigh-benard-convection-Ra10k.prm
 </pre></div>
 </div>
-<p>and</p>
-<div class="copy-button highlight-text notranslate"><div class="highlight"><pre><span></span>mpirun -np 8 lethe-fluid rayleigh-benard-convection-Ra25k.prm
+<p>or</p>
+<div class="copy-button highlight-text notranslate"><div class="highlight"><pre><span></span>mpirun -np 8 lethe-fluid rayleigh-benard-convection-Ra1M.prm
 </pre></div>
 </div>
-<p>to run the simulations using eight CPU cores. Feel free to use more. Note that the first and second commands belong to the simulations at <span class="math notranslate nohighlight">\(Ra=10^4\)</span> and <span class="math notranslate nohighlight">\(Ra=2.5 \times 10^4\)</span>, repectively.</p>
+<p>to run the simulations using eight CPU cores for the <span class="math notranslate nohighlight">\(Ra=10^4\)</span> and <span class="math notranslate nohighlight">\(Ra=10^6\)</span> cases respectively. Feel free to use more CPU if available.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Make sure to compile lethe in <cite>Release</cite> mode and
-run in parallel using mpirun. This simulation takes
-<span class="math notranslate nohighlight">\(\approx\)</span> 20 minutes on 8 processes.</p>
+run in parallel using mpirun. The first simulation takes
+<span class="math notranslate nohighlight">\(\approx\)</span> 20 minutes on 8 processes and the second at <span class="math notranslate nohighlight">\(Ra=10^6\)</span> can take a few hours because of the much smaller time-step required to respect the CFL condition.</p>
 </div>
 </section>
 <section id="results">
 <h2>Results<a class="headerlink" href="#results" title="Link to this heading">#</a></h2>
-<p>The following animation shows the results of this simulation:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tEg5M-wiCp8" frameborder="0" allowfullscreen></iframe><p>Note that at Ra=10000, two vortices exist in the fluid, while an extra (relatively small) vortex appears near the right wall. The velocity magnitude in the vortices is larger at smaller Rayleigh number.</p>
+<p>The following animation shows the evolution of the temperature field with the flow direction for the simulation at <span class="math notranslate nohighlight">\(Ra=10^6\)</span>:</p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/NSJJpPauiXo" frameborder="0" allowfullscreen></iframe><p>Below, we also present the velocity profiles at steady-state of our simulation compared to the ones presented by Ouertatani <em>et al.</em> <a class="footnote-reference brackets" href="#ouertatani" id="id9" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> as a verfification of the Lethe software.</p>
+<p><a class="reference internal" href="../../../_images/solution-rayleigh-uy.png"><img alt="fig1" src="../../../_images/solution-rayleigh-uy.png" style="width: 45%;" /></a> <a class="reference internal" href="../../../_images/solution-rayleigh-xv.png"><img alt="fig2" src="../../../_images/solution-rayleigh-xv.png" style="width: 47%;" /></a></p>
+<p>The results can be postprocessed using the provided Python script (<code class="docutils literal notranslate"><span class="pre">rayleigh-benard-convection.py</span></code>). Here is an example of how to call the script:</p>
+<div class="copy-button highlight-text notranslate"><div class="highlight"><pre><span></span>python3 rayleigh-benard-convection.py -f ./output_10k -f ./output_1M -Ra 10k -Ra 1M
+</pre></div>
+</div>
+<p>This script extracts the velocity in the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> directions at the mid-width (<span class="math notranslate nohighlight">\(x=0.5\)</span>) and mid-height (<span class="math notranslate nohighlight">\(y=0.5\)</span>) respectively and create the above plots.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The orientation of the vortex rotation obtained with the simulation may differ from the one above due to machine precision that generates the initial instability.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>You need to ensure that the <code class="docutils literal notranslate"><span class="pre">lethe_pyvista_tools</span></code> is working on your machine. Click <a class="reference internal" href="../../../tools/postprocessing/postprocessing_pyvista.html"><span class="doc">here</span></a> for details.</p>
+</div>
 </section>
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <aside class="footnote-list brackets">
+<aside class="footnote brackets" id="ouertatani" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id4">2</a>,<a role="doc-backlink" href="#id5">3</a>,<a role="doc-backlink" href="#id7">4</a>,<a role="doc-backlink" href="#id8">5</a>,<a role="doc-backlink" href="#id9">6</a>)</span>
+<p>N. Ouertatani, N. Ben Cheikh, B. Ben Beya, T. Lili, “Numerical simulation of two-dimensional Rayleigh-Bénard convection in an enclosure,” Comptes Rendus – Mec. 2008;336(5):464–70. <a class="reference external" href="https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2008.02.004/">10.1016/j.crme.2008.02.004</a>.</p>
+</aside>
 <aside class="footnote brackets" id="venturi2010" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<span class="label"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id6">2</a>)</span>
 <p>D. Venturi, X. Wan, and G. E. Karniadakis, “Stochastic bifurcation analysis of Rayleigh–Bénard convection,” <em>J. Fluid Mech.</em>, vol. 650, pp. 391–413, May 2010, doi: <a class="reference external" href="https://doi.org/10.1017/S0022112009993685">10.1017/S0022112009993685</a>.</p>
 </aside>
 <aside class="footnote brackets" id="mpi2022" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
 <p>“Rayleigh-Bénard Convection” <em>Max Planck Institute</em>, Accessed: 17 Jul. 2024, Available: <a class="reference external" href="https://archive.ph/XrJXx">https://archive.ph/XrJXx</a>.</p>
 </aside>
 </aside>
@@ -601,14 +620,14 @@ run in parallel using mpirun. This simulation takes
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../heat-transfer.html">
+          <a class="prev-page" href="../cooling-fin/cooling-fin.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Heat Transfer</div>
+                <div class="title">Cooling Fin</div>
                 
               </div>
             </a>

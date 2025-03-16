@@ -24,7 +24,6 @@
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
-{text:"Modules",url:"modules.html"},
 {text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
@@ -48,16 +47,26 @@ var menudata={children:[
 {text:"v",url:"namespacemembers.html#index_v"}]},
 {text:"Functions",url:"namespacemembers_func.html",children:[
 {text:"c",url:"namespacemembers_func.html#index_c"},
-{text:"d",url:"namespacemembers_func.html#index_d"},
 {text:"f",url:"namespacemembers_func.html#index_f"},
 {text:"g",url:"namespacemembers_func.html#index_g"},
 {text:"i",url:"namespacemembers_func.html#index_i"},
-{text:"m",url:"namespacemembers_func.html#index_m"},
 {text:"p",url:"namespacemembers_func.html#index_p"},
+{text:"r",url:"namespacemembers_func.html#index_r"},
 {text:"v",url:"namespacemembers_func.html#index_v"}]},
 {text:"Typedefs",url:"namespacemembers_type.html"},
 {text:"Enumerations",url:"namespacemembers_enum.html"},
-{text:"Enumerator",url:"namespacemembers_eval.html"}]}]},
+{text:"Enumerator",url:"namespacemembers_eval.html",children:[
+{text:"c",url:"namespacemembers_eval.html#index_c"},
+{text:"d",url:"namespacemembers_eval.html#index_d"},
+{text:"e",url:"namespacemembers_eval.html#index_e"},
+{text:"f",url:"namespacemembers_eval.html#index_f"},
+{text:"h",url:"namespacemembers_eval.html#index_h"},
+{text:"l",url:"namespacemembers_eval.html#index_l"},
+{text:"m",url:"namespacemembers_eval.html#index_m"},
+{text:"n",url:"namespacemembers_eval.html#index_n"},
+{text:"o",url:"namespacemembers_eval.html#index_o"},
+{text:"t",url:"namespacemembers_eval.html#index_t"},
+{text:"v",url:"namespacemembers_eval.html#index_v"}]}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
@@ -114,6 +123,7 @@ var menudata={children:[
 {text:"u",url:"functions_func_u.html#index_u"},
 {text:"v",url:"functions_func_v.html#index_v"},
 {text:"w",url:"functions_func_w.html#index_w"},
+{text:"z",url:"functions_func_z.html#index_z"},
 {text:"~",url:"functions_func_~.html#index__7E"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"a",url:"functions_vars.html#index_a"},
@@ -208,6 +218,7 @@ var menudata={children:[
 {text:"g",url:"globals_func_g.html#index_g"},
 {text:"h",url:"globals_func_h.html#index_h"},
 {text:"i",url:"globals_func_i.html#index_i"},
+{text:"l",url:"globals_func_l.html#index_l"},
 {text:"m",url:"globals_func_m.html#index_m"},
 {text:"n",url:"globals_func_n.html#index_n"},
 {text:"p",url:"globals_func_p.html#index_p"},
@@ -221,4 +232,4 @@ var menudata={children:[
 {text:"Enumerations",url:"globals_enum.html"},
 {text:"Enumerator",url:"globals_eval.html"},
 {text:"Macros",url:"globals_defs.html"}]}]},
-{text:"Lethe GitHub",url:"https://github.com/chaos-polymtl/lethe"}]}
+{text:"Lethe GitHub",url:"^https://github.com/chaos-polymtl/lethe"}]}

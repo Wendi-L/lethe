@@ -1,20 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classPhysicsSolver.html" title="Contain all the common elements of a physics solver. It creates the non&#45;linear solver as specified by..." alt="" coords="5,325,219,352"/>
-<area shape="rect" id="node2" href="$classAuxiliaryPhysics.html" title=" " alt="" coords="293,99,466,141"/>
-<area shape="rect" id="node7" href="$classNavierStokesBase.html" title=" " alt="" coords="270,205,489,246"/>
-<area shape="rect" id="node13" href="$classNavierStokesBase.html" title=" " alt="" coords="281,271,478,327"/>
-<area shape="rect" id="node15" href="$classNavierStokesBase.html" title=" " alt="" coords="267,351,492,407"/>
-<area shape="rect" id="node17" href="$classAuxiliaryPhysics.html" title=" " alt="" coords="293,431,466,473"/>
-<area shape="rect" id="node18" href="$classNavierStokesBase.html" title=" " alt="" coords="287,497,471,538"/>
-<area shape="rect" id="node3" href="$classCahnHilliard.html" title=" " alt="" coords="562,5,719,32"/>
-<area shape="rect" id="node4" href="$classHeatTransfer.html" title="Implementation of heat transfer as an auxiliary physics. The heat equation is weakly coupled to the v..." alt="" coords="561,56,721,83"/>
-<area shape="rect" id="node5" href="$classTracer.html" title=" " alt="" coords="583,107,699,133"/>
-<area shape="rect" id="node6" href="$classVolumeOfFluid.html" title=" " alt="" coords="554,157,727,184"/>
-<area shape="rect" id="node8" href="$classFluidDynamicsMatrixBased.html" title="A solver class for the Navier&#45;Stokes equation using GLS stabilization." alt="" coords="540,209,741,250"/>
-<area shape="rect" id="node9" href="$classFluidDynamicsNitsche.html" title=" " alt="" coords="789,143,957,185"/>
-<area shape="rect" id="node10" href="$classFluidDynamicsSharp.html" title=" " alt="" coords="795,209,951,250"/>
-<area shape="rect" id="node11" href="$classFluidDynamicsVANS.html" title=" " alt="" coords="791,274,956,315"/>
-<area shape="rect" id="node12" href="$classCFDDEMSolver.html" title="Solver using the GLS Volume&#45;averaged Navier&#45;Stokes (VANS) solver for fluid and the soft&#45;sphere model ..." alt="" coords="1005,281,1180,308"/>
-<area shape="rect" id="node14" href="$classFluidDynamicsBlock.html" title=" " alt="" coords="563,278,718,319"/>
-<area shape="rect" id="node16" href="$classFluidDynamicsMatrixFree.html" title="A solver for the incompressible Navier&#45;Stokes equations implemented in a matrix&#45;free fashion." alt="" coords="546,358,735,399"/>
+<area shape="rect" id="Node000000" href="$classParticleWallContactForce.html" title="Base interface for classes that carry out the calculation of particle&#45;wall contact force." alt="" coords="5,69,192,109"/>
+<area shape="rect" id="Node000001" href="$classParticleWallJKRForce.html" title="Calculation of the JKR particle&#45;wall contact force using the information obtained from the fine searc..." alt="" coords="246,5,433,45"/>
+<area shape="poly" id="edge86_Node000000_Node000001" title=" " alt="" coords="187,63,263,43,264,48,189,68"/>
+<area shape="rect" id="Node000002" href="$classParticleWallLinearForce.html" title="Calculate particle&#45;wall contact force using the information obtained from the fine search and physica..." alt="" coords="246,69,433,109"/>
+<area shape="poly" id="edge87_Node000000_Node000002" title=" " alt="" coords="205,87,246,87,246,92,205,92"/>
+<area shape="rect" id="Node000003" href="$classParticleWallNonLinearForce.html" title="Calculate the non&#45;linear particle&#45;wall contact force using the information obtained from the fine sea..." alt="" coords="240,133,439,173"/>
+<area shape="poly" id="edge88_Node000000_Node000003" title=" " alt="" coords="189,110,264,131,263,136,187,116"/>
+<area shape="rect" id="Node000004" href="$classParticleWallDMTForce.html" title="Calculation of the DMT particle&#45;wall contact force using the information obtained from the fine searc..." alt="" coords="487,133,673,173"/>
+<area shape="poly" id="edge89_Node000003_Node000004" title=" " alt="" coords="452,151,486,151,486,156,452,156"/>
 </map>
