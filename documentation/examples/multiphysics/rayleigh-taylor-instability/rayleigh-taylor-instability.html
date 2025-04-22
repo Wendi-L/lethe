@@ -187,6 +187,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../../../parameters/cfd/manifolds.html">Manifolds</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../parameters/cfd/mesh.html">Mesh</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../parameters/cfd/mesh_adaptation_control.html">Mesh Adaptation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../parameters/cfd/mortar.html">Mortar</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../parameters/cfd/multiphysics.html">Multiphysics</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../parameters/cfd/nitsche.html">Nitsche Immersed Boundary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../parameters/cfd/non-linear_solver_control.html">Non-linear Solver</a></li>
@@ -236,11 +237,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-lid-driven-cavity-flow/lid-driven-cavity-flow.html">Lid-Driven Cavity Flow</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-flow-around-cylinder/2d-flow-around-cylinder.html">Flow around a Cylinder</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-taylor-couette-flow/2d-taylor-couette-flow.html">Taylor-Couette Flow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-mms/2d-mms.html">Method of Manufactured Solutions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-backward-facing-step/2d-backward-facing-step.html">Flow past a Backward-Facing Step</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-transient-flow-around-ahmed-body/2d-transient-flow-around-ahmed-body.html">Transient Flow around an Ahmed Body</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-transient-flow-around-cylinder/2d-transient-flow-around-cylinder.html">Transient Flow around a Cylinder</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-naca0012-low-reynolds/2d-naca0012-low-reynolds.html">Flow around NACA0012 at Low Reynolds Number</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-taylor-couette-flow-nitsche/2d-taylor-couette-flow-nitsche.html">Taylor-Couette Flow Using Nitsche Immersed Boundary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/2d-sudden-expansion-flow/2d-sudden-expansion-flow.html">Sudden-Expansion Flow</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/3d-flow-around-sphere/flow-around-sphere.html">Flow around a Sphere</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/3d-taylor-green-vortex/3d-taylor-green-vortex.html">Taylor-Green Vortex</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../incompressible-flow/3d-turbulent-taylor-couette/3d-turbulent-taylor-couette.html">Turbulent Taylor-Couette Flow</a></li>
@@ -304,6 +307,7 @@
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../unresolved-cfd-dem/unresolved-cfd-dem.html">Unresolved CFD-DEM</a><input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><div class="visually-hidden">Toggle navigation of Unresolved CFD-DEM</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/single-particle-sedimentation/single-particle-sedimentation.html">Single Particle Sedimentation</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/cylindrical-packed-bed/cylindrical-packed-bed.html">Cylindrical Packed Bed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/gas-solid-fluidized-bed/gas-solid-fluidized-bed.html">Gas-Solid Fluidized Bed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../unresolved-cfd-dem/gas-solid-spouted-bed/gas-solid-spouted-bed.html">Gas-Solid Spouted Bed</a></li>
@@ -445,7 +449,7 @@
 <li><p>Periodic boundary condition</p></li>
 <li><p>Unsteady problem handled by an adaptive BDF2 time-stepping scheme</p></li>
 <li><p>Monitoring mass conservation</p></li>
-<li><p>Interface sharpening</p></li>
+<li><p>Projection-based interface sharpening</p></li>
 </ul>
 </section>
 <hr class="docutils" />
@@ -453,8 +457,8 @@
 <h2>Files Used in This Example<a class="headerlink" href="#files-used-in-this-example" title="Link to this heading">#</a></h2>
 <p>All files mentioned below are located in the example’s folder (<code class="docutils literal notranslate"><span class="pre">examples/multiphysics/rayleigh-taylor-instability</span></code>).</p>
 <ul class="simple">
-<li><p>Parameter file for adaptive sharpening: <code class="docutils literal notranslate"><span class="pre">rayleigh-taylor-instability-adaptive-sharpening.prm</span></code></p></li>
-<li><p>Parameter file for constant sharpening: <code class="docutils literal notranslate"><span class="pre">rayleigh-taylor-instability-constant-sharpening.prm</span></code></p></li>
+<li><p>Parameter file for adaptive projection-based interface sharpening: <code class="docutils literal notranslate"><span class="pre">rayleigh-taylor-instability-adaptive-sharpening.prm</span></code></p></li>
+<li><p>Parameter file for constant projection-based interface sharpening: <code class="docutils literal notranslate"><span class="pre">rayleigh-taylor-instability-constant-sharpening.prm</span></code></p></li>
 <li><p>Postprocessing Python script: <code class="docutils literal notranslate"><span class="pre">rayleigh-taylor_postprocess.py</span></code></p></li>
 </ul>
 </section>
@@ -635,15 +639,17 @@ end
 </section>
 <section id="vof">
 <h3>VOF<a class="headerlink" href="#vof" title="Link to this heading">#</a></h3>
-<p>In the <code class="docutils literal notranslate"><span class="pre">VOF</span></code> subsection, we enable <code class="docutils literal notranslate"><span class="pre">interface</span> <span class="pre">sharpening</span></code> to reconstruct the interface and keep it sharp during the simulation. Note that here, we use the <code class="docutils literal notranslate"><span class="pre">constant</span></code> and <code class="docutils literal notranslate"><span class="pre">adaptive</span></code> methods for interface sharpening. Mass conservation results show that choosing a <code class="docutils literal notranslate"><span class="pre">constant</span></code> method does not affect the mass conservation significantly. Hence, the results of both methods are almost identical. For the <code class="docutils literal notranslate"><span class="pre">constant</span></code> sharpening we use:</p>
+<p>In the <code class="docutils literal notranslate"><span class="pre">VOF</span></code> subsection, we select the <code class="docutils literal notranslate"><span class="pre">projection-based</span> <span class="pre">interface</span> <span class="pre">sharpening</span></code> method in the <code class="docutils literal notranslate"><span class="pre">interface</span> <span class="pre">regularization</span> <span class="pre">method</span></code> subsection to reconstruct the interface and keep it sharp during the simulation. Note that in the <code class="docutils literal notranslate"><span class="pre">projection-based</span> <span class="pre">interface</span> <span class="pre">sharpening</span></code> subsection, we use the <code class="docutils literal notranslate"><span class="pre">constant</span></code> and <code class="docutils literal notranslate"><span class="pre">adaptive</span></code> types for interface sharpening methods. Mass conservation results show that choosing a <code class="docutils literal notranslate"><span class="pre">constant</span></code> method does not affect the mass conservation significantly. Hence, the results of both methods are almost identical. For the <code class="docutils literal notranslate"><span class="pre">constant</span></code> sharpening, we use:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>subsection VOF
-  subsection interface sharpening
-    set enable              = true
-    set threshold           = 0.5
-    set interface sharpness = 1.5
-    set frequency           = 25
-    set type                = constant
-  end
+  subsection interface regularization method
+    set type      = projection-based interface sharpening
+    set frequency = 25
+    subsection projection-based interface sharpening
+      set threshold           = 0.5
+      set interface sharpness = 1.5
+      set type                = constant
+    end
+ end
   subsection phase filtration
     set type      = tanh
     set verbosity = quiet
@@ -652,18 +658,20 @@ end
 end
 </pre></div>
 </div>
-<p>and for the <code class="docutils literal notranslate"><span class="pre">adaptive</span></code> sharpening:</p>
+<p>and for the <code class="docutils literal notranslate"><span class="pre">adaptive</span></code> projection-based interface sharpening:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>subsection VOF
-  subsection interface sharpening
-    set enable                  = true
-    set threshold               = 0.5
-    set interface sharpness     = 1.5
-    set frequency               = 25
-    set type                    = adaptive
-    set threshold max deviation = 0.2
-    set max iterations          = 50
-    set monitored fluid         = fluid 1
-    set tolerance               = 1e-2
+  subsection interface regularization method
+    set type      = projection-based interface sharpening
+    set frequency = 25
+    subsection projection-based interface sharpening
+      set threshold               = 0.5
+      set interface sharpness     = 1.5
+      set type                    = adaptive
+      set threshold max deviation = 0.2
+      set max iterations          = 50
+      set monitored fluid         = fluid 1
+      set tolerance               = 1e-2
+    end
   end
   subsection phase filtration
     set type  = tanh
@@ -743,7 +751,7 @@ run in parallel using mpirun. On <span class="math notranslate nohighlight">\(8\
 </tbody>
 </table>
 </div>
-<p>The following figures show the mass of <code class="docutils literal notranslate"><span class="pre">fluid</span> <span class="pre">1</span></code> throughout the simulation with a constant (left) and adaptive (right) interface sharpening.</p>
+<p>The following figures show the mass of <code class="docutils literal notranslate"><span class="pre">fluid</span> <span class="pre">1</span></code> throughout the simulation with a constant (left) and adaptive (right) projection-based interface sharpenings.</p>
 <div class="table-wrapper docutils container">
 <table class="docutils align-default">
 <tbody>
