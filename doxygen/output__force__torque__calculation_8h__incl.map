@@ -1,0 +1,32 @@
+<map id="/home/runner/work/lethe/lethe/include/dem/output_force_torque_calculation.h" name="/home/runner/work/lethe/lethe/include/dem/output_force_torque_calculation.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="585,5,787,60"/>
+<area shape="rect" id="Node000002" href="$data__containers_8h.html" title=" " alt="" coords="422,115,593,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="637,62,543,111,540,107,635,58"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="617,115,755,141"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="689,60,689,101,683,101,683,60"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="780,108,915,148"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="733,58,804,99,801,103,730,62"/>
+<area shape="rect" id="Node000003" href="$boundary__cells__info__struct_8h.html" title=" " alt="" coords="291,196,444,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="490,143,411,191,408,187,487,139"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,291,159,317"/>
+<area shape="poly" id="edge10_Node000002_Node000005" title=" " alt="" coords="422,135,335,142,243,154,161,172,131,184,109,198,96,215,88,236,83,278,78,277,83,235,91,213,106,194,128,179,160,167,242,148,335,137,421,130"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="554,284,690,324"/>
+<area shape="poly" id="edge11_Node000002_Node000006" title=" " alt="" coords="514,140,533,183,562,234,593,272,589,276,557,238,528,185,509,142"/>
+<area shape="rect" id="Node000007" href="$contact__info_8h.html" title=" " alt="" coords="119,203,266,229"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="466,143,249,202,247,197,464,138"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="355,284,529,324"/>
+<area shape="poly" id="edge12_Node000002_Node000008" title=" " alt="" coords="506,142,456,272,451,270,501,140"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="571,203,695,229"/>
+<area shape="poly" id="edge13_Node000002_Node000009" title=" " alt="" coords="526,139,606,193,603,198,523,143"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="719,203,781,229"/>
+<area shape="poly" id="edge14_Node000002_Node000010" title=" " alt="" coords="546,138,708,193,713,195,711,200,706,199,544,143"/>
+<area shape="rect" id="Node000011" href="$unordered__dense_8h.html" title=" " alt="" coords="805,203,996,229"/>
+<area shape="poly" id="edge15_Node000002_Node000011" title=" " alt="" coords="561,138,836,198,834,203,559,143"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="183,291,330,317"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="344,238,285,285,281,280,341,234"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="305,239,134,290,132,285,304,234"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="424,234,554,277,553,282,422,239"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="203,227,242,278,237,281,199,230"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="179,231,110,285,106,280,176,227"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="227,226,375,277,373,282,225,231"/>
+</map>
